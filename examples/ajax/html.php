@@ -1,12 +1,12 @@
 <?
 
-$name = "Р’Р°СЃСЏ";
+$name = "Вася";
 $age = "23";
-$country = "Р РѕСЃСЃРёСЏ";
+$country = "Россия";
 ?>
 
 <div>
-	<div class="name">РРјСЏ:<?=$name;?></div>
-	<div class="age">Р’РѕР·СЂР°СЃС‚:<?=$age;?></div>
-	<div class="country">РњРµСЃС‚Рѕ РїСЂРѕР¶РёРІР°РЅРёСЏ:<?=$country;?></div>
+	<div class="name">Имя:<?=$name;?></div>
+	<div class="age">Возраст:<?=$age;?></div>
+	<div class="country">Место проживания:<?=$country;?></div>
 </div>

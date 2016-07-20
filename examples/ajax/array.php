@@ -1,5 +1,5 @@
 <?
 require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
 
-$array = array("ÐšÐ¾ÑˆÐºÐ°", "Ð¡Ð¾Ð±Ð°ÐºÐ°", "ÐŸÐ¾Ð¿ÑƒÐ³Ð°Ð¹");
-echo CUtil::PhpToJSObject($array);
+$array = array("Êîøêà", "Ñîáàêà", "Ïîïóãàé");
+echo str_replace("'", "\"", CUtil::PhpToJSObject($array));

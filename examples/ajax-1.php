@@ -1,25 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-</head>
-<body>
-	<p>РћС‚РїСЂР°РІРёС‚СЊ РµРґРµРЅРёС†Сѓ(1), СЃР»РѕР¶РёС‚СЊ РЅР° СЃРµСЂРІРµСЂРµ СЃ 2, РїРѕР»СѓС‡РёС‚СЊ 3.</p>
-	<a href="#" class="addition">РЎР»РѕР¶РµРЅРёРµ 1 Рё 2</a>
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");?>
+	<p>Отправить еденицу(1), сложить на сервере с 2, получить 3.</p>
+	<a href="#" class="addition">Сложение 1 и 2</a>
 	<br><br><br>
 
 
-	<p>РЎРѕР±РµСЂРµРј РјР°СЃСЃРёРІ РЅР° СЃРµСЂРІРµСЂРµ Рё РІС‹РІРµРґРµРј РІ РєР»РёРµРЅС‚.</p>
+	<p>Соберем массив на сервере и выведем в клиент.</p>
 	<a href="#" class="array">JSON</a>
 	<br><br><br>
 
 
-	<p>РџРѕР»СѓС‡РёРј HTML Рё РІСЃС‚Р°РІРёРј РІ РѕР±Р»Р°СЃС‚СЊ </p>
+	<p>Получим HTML и вставим в область </p>
 	<a href="#" class="html">HTML</a>
 
 	<div class="people"></div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script>
 		$('.addition').on('click', function(event) {
 			event.preventDefault();
@@ -56,5 +50,4 @@
 			});
 		});
 	</script>
-</body>
-</html>
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
